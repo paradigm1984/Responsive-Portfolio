@@ -1,0 +1,277 @@
+body#body-style {
+
+	background-color: lightgray;
+}
+
+/* =========== for navbar ================== */
+
+nav.navbar {
+
+	background-color:#ffffff;
+	height: 65px;
+	margin-bottom: 30px;
+}
+
+h4.navbar-name {
+
+	background-color: #4aaaa5;
+	color: white;
+	font-weight: bolder;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: 40%;
+	margin-top: -1px;
+	width:180px;
+	height: 65px;
+	float: left;
+	letter-spacing: .1em;
+
+}
+
+ul.navbar-right {
+
+	margin-right:10px;
+}
+
+.navbar-right:hover {
+    color: #61B0AC;
+}
+
+
+/* ========== for LEFT panel =============== */
+
+div.leftPanel {
+
+
+	width: 500px;
+	height: 100%;
+	background-color: white;
+	border-radius: 15px;
+	margin-left: 80px;
+	margin-bottom: 30px;
+	padding-bottom: 40px;
+	
+	
+
+}
+
+
+h1.leftitle {
+
+	font-size: 2em;
+	color: #4aaaa5;
+	font-family: georgia;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	margin-right: 20px;	
+
+}
+
+
+p.text {
+
+	margin-top: 10px;
+	float: left;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue',
+	  Helvetica, sans-serif;
+	  margin-bottom: 10px;
+}
+
+/* ========== for portfolio =============== */
+
+.main-section {
+ 
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+ 
+ 
+}
+
+.work {
+  position: relative;
+  float: left;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+  overflow: auto;
+
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+
+}
+
+.work img {
+  width: 200px;
+  height: 170px;
+  border: 0 none;
+  opacity: 0.8;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightgray;
+
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 1.4em;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+
+}
+
+
+/* ============ for index ================== */
+
+
+img.bioPic {
+
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-top: 3px;
+	float:left;
+}
+
+div.bioLinks {
+
+	font-size: 1.2em;
+	color: #777777;
+	font-family: helvetica;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	text-align: center;
+	line-height: 1.3em;
+	letter-spacing: .1em;
+
+}
+
+a.webLinks {
+
+	clear:both;
+	text-decoration: none;
+	font-family: inherit;
+	color: #666666;
+	font-size: 1em;
+	line-height: .1em;
+	display: inline;
+
+}
+
+a:hover {
+    color: #61B0AC;
+}
+
+/* ============ for contact ================= */
+
+form.fields {
+
+	margin-left:5%;
+	margin-top:10%;
+}
+
+input.input  {
+
+	width:95%;
+	max-width: 650px;
+	margin-bottom: 15px;
+	line-height: 1.5em;
+	border-radius: 5px;
+}
+
+textarea.input {
+
+	width:95%;
+	max-width: 650px;
+	margin-bottom: 5px;
+	line-height: 2em;
+	border-radius: 5px;
+
+}
+
+button.submit {
+	
+	text-decoration: none;
+	border-radius: 10px;
+	width: 100px;
+	height: 40px;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: white;
+	font-size: 1.3em;
+	margin-left: 6%;
+}
+
+
+
+/* ========== for right panel =============== */
+
+div.rightPanel {
+
+	
+	max-width: 430px;
+	height: 190px;
+	background-color: white;
+	border-radius: 15px;
+	margin-right: 0px;
+	margin-left: 75px;
+
+
+}
+
+
+h1.rightTitle {
+
+	font-size: 1.7em;
+	color: #4aaaa5;
+	font-family: georgia;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;	
+}
+
+div.sideBar {
+	
+	margin-right: 13%;
+	margin-left: 10%;
+	border-radius: 15px;
+	padding-bottom: 10px;
+}
+
+
+
+a.imageLinks {
+
+	margin:5px;
+}
+/* ================ FOOTER =================== */
+
+footer.footer {
+
+	width: 100%;
+	height: 80px;
+	background-color: #666666;
+	margin-top: 40px;
+	border-top-style: solid;
+	border-top-width: 10px;
+	border-top-color: #4aaaa5;
+}
+
+p.footerText {
+
+	text-align: center;
+	margin-top: 20px;
+	color:gray;
+
+}
